@@ -28,13 +28,13 @@ let size = 12
 
 let kind_of_string = function
   | "Caml1999X" -> "exe"
-  | "Caml1999I" -> "cmi"
+  | "Mlfi1999I" -> "cmi"
   | "Caml1999O" -> "cmo"
   | "Caml1999A" -> "cma"
   | "Caml1999Y" -> "cmx"
   | "Caml1999Z" -> "cmxa"
   | "Caml2007D" -> "cmxs"
-  | "Caml2012T" -> "cmt"
+  | "Mlfi2012T" -> "cmt"
   | "Caml1999M" -> "impl"
   | "Caml1999N" -> "intf"
   | _ -> raise Not_found
